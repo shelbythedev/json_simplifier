@@ -2,7 +2,7 @@ require 'json'
 
 class Handler
 
-    # FUNCTION: run
+    # FUNCTION:     run
     # DESCRIPTION:  Takes in a JSON object originating from a 3rd-party service.
     #               Returns a cleaned object with easy-to-manipulate key-value pairs.
     def run(req)
